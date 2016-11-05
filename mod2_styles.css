@@ -25,7 +25,7 @@ p {
   text-align: right;
   height: 50px;
   width: 40$;
-  position: relative;
+  position: absolute;
   font-family:Helvetica;
   color: blue:
 }
