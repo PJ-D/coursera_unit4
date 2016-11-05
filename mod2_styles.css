@@ -37,7 +37,6 @@ p {
 @media (min-width: 992px) {
   .col-dt-1, .col-dt-2, .col-dt-3  {
     float: left;
-    border: 1px solid green;
   }
   .col-dt-1 {
     width: 33%;
@@ -54,7 +53,6 @@ p {
 @media (min-width:768px) and (max-width: 991px) {
   .col-tb-1, .col-tb-2, .col-tb-3  {
     float: left;
-    border: 1px solid green;
   }
   .col-tb-1 {
     width: 8.33%;
@@ -71,7 +69,6 @@ p {
 @media (max-width: 767px) {
   .col-mb-1, .col-mb-2, .col-mb-3 {
     float: left;
-    border: 1px solid green;
   }
   .col-mb-1 {
     width: 8.33%;
