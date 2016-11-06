@@ -18,14 +18,16 @@ p {
   color: white;
 }
 #dvbox{
-  border: 6px solid black;
+  border: 2px solid black;
   background-color:#455679;
   position: relative;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #tb1{
   border: 1px solid black;
-  background-color: #f3e54c;
+  background-color: #90F1B6;
   height: 35px;
   display: inline-block;
   right:0;
