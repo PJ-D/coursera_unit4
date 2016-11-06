@@ -24,6 +24,7 @@ p {
   background-color: #ffff00;
   text-align: right;
   height: 35px;
+  display: inline-block;
   position: absolute;
   top: 15px;
   font-size: 150%;
