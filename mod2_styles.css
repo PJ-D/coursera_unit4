@@ -25,12 +25,10 @@ p {
 
 #tb1{
   border: 1px solid black;
-  background-color: #90F1A3;
+  background-color: #90B0F1;
   float: right;
-  position: relative;
+  position: absolute;
   height: 35px;
-  display: inline-block;
-  right:0;
   font-size: 150%;
   font-family:Helvetica;
 }
