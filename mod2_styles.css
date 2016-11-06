@@ -23,15 +23,14 @@ p {
   background-color:#455679;
   margin-right: auto;
   margin-left: auto:
-  
 }
+
 #tb1{
   border: 1px solid black;
   background-color: #f3e54c;
   text-align: right;
   height: 35px;
   display: inline-block;
-  position:absolute;
   right:0;
   margin-right:8px;
   font-size: 150%;
