@@ -10,8 +10,7 @@ h1 {text-align: center;
   margin-bottom: 15px;
 }
 p {
-  width: 90%;
-  background-color:#455679;
+  width: 95%;
   height: 200px;
   margin-right: auto;
   margin-left: auto;
@@ -19,6 +18,8 @@ p {
   color: white;
 }
 #dvbox{
+  width: 90%;
+  background-color:#455679;
   border: 2px solid black;
   position: relative;
 }
