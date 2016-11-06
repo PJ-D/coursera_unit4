@@ -21,13 +21,11 @@ p {
   border: 2px solid black;
   background-color:#455679;
   position: relative;
-  margin-right: 6px;
-  margin-left: 6px;
 }
 
 #tb1{
   border: 1px solid black;
-  background-color: #90DFF1;
+  background-color: #90F1A3;
   height: 35px;
   display: inline-block;
   right:0;
@@ -45,6 +43,8 @@ p {
   }
   .col-dt-1 {
     width: 33%;
+  margin-right: 6px;
+  margin-left: 6px;
   }
   .col-dt-2 {
     width: 16.66%;
