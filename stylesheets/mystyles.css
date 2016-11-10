@@ -7,7 +7,7 @@
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #394968;
   border-radius: 0;
   border: 0;
 }
@@ -20,12 +20,12 @@
 }
 
 .navbar-brand {
-  padding-top: 25px;
+  padding-top: 5px;
 }
 
 .navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
+  font-family: 'Helvetica';
+  color: #dcdfe5;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
