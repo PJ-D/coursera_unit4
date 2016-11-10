@@ -19,7 +19,8 @@ p {
   margin-left: auto;
   font-family: Helvetica;
   color: white;
-  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 #dvbox{
