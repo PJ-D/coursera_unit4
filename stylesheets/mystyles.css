@@ -78,7 +78,7 @@
 }
 
 #nav-list li span {
-  font-size: 1.8em;
+  font-size: .8em;
 }
 
 @media (max-width: 767px) {
@@ -93,10 +93,10 @@
   }
 
 #collapsable-nav ul li span { /* Collapsed nav menu */
-    font-size: .4em;
+    font-size: .2em;
     text-align: center;
     color: black;
-    background-color: #ffffff;
+    background-color: #c9d3ce;
     
   }
 
