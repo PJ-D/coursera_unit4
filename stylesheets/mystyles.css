@@ -95,8 +95,8 @@
     margin-top: 12px;
   }
 
-#collapsable-nav li span { /* Collapsed nav menu */
-    font-size: 1em;
+#collapsable-nav ul li span { /* Collapsed nav menu */
+    
     text-align: center;
     background-color: #ffffff;
     
