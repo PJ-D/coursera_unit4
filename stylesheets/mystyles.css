@@ -101,16 +101,14 @@
     margin-top: 12px;
   }
 
-#collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
-  }
-#collapsable-nav a span { /* Collapsed nav menu glyph */
+#collapsable-nav span { /* Collapsed nav menu */
     font-size: 1em;
-    margin-right: 5px;
+    text-align: center;
+    background-color: #ffffff;
+    
   }
 
 
 
-  /* End Header */
 
-}
+
