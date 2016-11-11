@@ -12,6 +12,10 @@
   border: 0;
 }
 
+.h1{
+ color: black;
+}
+
 .navbar-brand {
   padding-top: 20px;
 }
