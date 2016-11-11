@@ -74,12 +74,13 @@
   padding-right: 15px;
 }
 #nav-list {
-    margin-top: 30px;
+    background-color:#ddb66c;
+    border: 1px solid black;
 }
 
 #nav-list ul li span {
   border: 1px solid black;
-  background-color:#ddb66c;
+  background-color:#dadd6c;
 }
 
 @media (max-width: 767px) {
@@ -96,7 +97,7 @@
 #collapsable-nav div ul li { /* Collapsed nav menu */
     text-align: center;
     color: black;
-    background-color: #dd6c87;
+    background-color:#d0e4f4;
     
   }
 
