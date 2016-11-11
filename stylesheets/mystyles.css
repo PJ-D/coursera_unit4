@@ -91,12 +91,9 @@
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
-.navbar-brand p { /* Kosher cert */
-    font-size: .6em;
-    margin-top: 12px;
-  }
 
-#collapsable-nav ul li  { /* Collapsed nav menu */
+#collapsable-nav ul li span { /* Collapsed nav menu */
+    font-size: .4em;
     text-align: center;
     color: black;
     background-color: #ffffff;
