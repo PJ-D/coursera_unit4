@@ -79,7 +79,7 @@
 
 #nav-list ul li span {
   border: 1px solid black;
-  background-color:#c9d3ce;
+  background-color:#ddb66c;
 }
 
 @media (max-width: 767px) {
@@ -96,7 +96,7 @@
 #collapsable-nav ul li { /* Collapsed nav menu */
     text-align: center;
     color: black;
-    background-color: #c9d3ce;
+    background-color: #dd6c87;
     
   }
 
