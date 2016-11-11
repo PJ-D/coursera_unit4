@@ -41,7 +41,6 @@
   vertical-align: middle;
 }
 .food {
-  position: relative;
   text-align: center;
   font-size: 150%;
   font-family:Helvetica;
@@ -54,6 +53,7 @@
   color: #000000;
   margin-top: 15px;
  }
+
 .menu_box{
   border: 1px solid black;
   background-color:#dceae5;
@@ -63,6 +63,7 @@
   padding-right: 8px;
   padding-top:8ps;
 }
+
 .foodtype_p{
   margin-right: auto;
   margin-left: auto;
