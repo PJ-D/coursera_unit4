@@ -74,13 +74,8 @@
   padding-right: 15px;
 }
 #nav-list {
-    background-color:#d5dfe8;
+    background-color:green;
     }
-
-#nav-list ul {
-  border: 1px solid black;
-  background-color:blue;
-}
 
 @media (max-width: 767px) {
   /* Header */
@@ -96,12 +91,15 @@
 #collapsable-nav { /* Collapsed nav menu */
     text-align: center;
     font-size: 1.3em
-    border: 1px solid black;
     color: black;
-    background-color:#d5dfe8;
+    background-color:red;
     
   }
-
+#collapsable-nav p { /* Collapsed nav menu */
+    text-align: center;
+    border: 1px solid black;
+    
+  }
 
 
 
