@@ -98,7 +98,7 @@
   }
 #collapsable-nav p { /* Collapsed nav menu */
     text-align: center;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     
   }
 
