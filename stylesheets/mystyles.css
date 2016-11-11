@@ -20,9 +20,7 @@
   font-family: 'Helvetica';
   color: #87b27c;
   font-size: 1.5em;
-  text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
@@ -87,4 +85,32 @@
 }
 #nav-list a span {
   font-size: 1.8em;
+}
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+.navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+.navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+#collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+
+
+  /* End Header */
+
 }
