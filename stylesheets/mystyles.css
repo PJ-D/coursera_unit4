@@ -95,8 +95,10 @@
 
 #collapsable-nav { /* Collapsed nav menu */
     text-align: center;
+    font-size: 1.3em
+    border: 1px solid black;
     color: black;
-    background-color:red;
+    background-color:#d5dfe8;
     
   }
 
