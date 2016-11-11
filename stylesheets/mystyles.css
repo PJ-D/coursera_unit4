@@ -18,7 +18,7 @@
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Helvetica';
-  color: #87b27c;
+  color: #ffffff;
   font-size: 1.5em;
   font-weight: bold;
   margin-top: 0;
@@ -80,6 +80,7 @@
 #nav-list li span {
   font-size: 1.8em;
 }
+
 @media (max-width: 767px) {
   /* Header */
   .navbar-brand {
@@ -96,7 +97,6 @@
   }
 
 #collapsable-nav ul li span { /* Collapsed nav menu */
-    
     text-align: center;
     background-color: #ffffff;
     
