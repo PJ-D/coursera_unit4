@@ -96,8 +96,9 @@
     margin-top: 12px;
   }
 
-#collapsable-nav ul li span { /* Collapsed nav menu */
+#collapsable-nav ul li  { /* Collapsed nav menu */
     text-align: center;
+    color: black;
     background-color: #ffffff;
     
   }
