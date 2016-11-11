@@ -93,7 +93,7 @@
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
 
-#collapsable-nav ul li span { /* Collapsed nav menu */
+#collapsable-nav ul li { /* Collapsed nav menu */
     text-align: center;
     color: black;
     background-color: #c9d3ce;
