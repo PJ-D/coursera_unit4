@@ -45,7 +45,7 @@ WARNING!!! WARNING!!!
 for (var i = 0; i < names.length; i++) {
 		current_name = names[i];
 		var firstLetter = current_name.charAt(0);
-		var modLetter = firstLetter.toLowerCase;
+		var modLetter = firstLetter.toLowerCase();
 		if (modLetter == "j") {
 			byeSpeaker.speak (current_name);
 		}
