@@ -6,13 +6,12 @@ angular.module('LunchCheck', [])
 
 LunchCheckController.$inject = ['$scope'];
 function LunchCheckController($scope, $filter) {
-  $scope.name = "Yaakov";
-  $scope.stateOfBeing = "hungry";
-  $scope.cookieCost = .45;
-
+  $scope.lunch = "";
+  $scope.message = "";
+  
   $scope.sayMessage = function () {
     var msg = "Yaakov likes to eat healthy snacks at night!";
-    var output = $filter('uppercase')(msg);
+    var output = "Enjoy";
     return output;
   };
 
