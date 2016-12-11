@@ -12,12 +12,17 @@ LunchCheckController.$inject=['$scope'];
   $scope.items = 0;
 
   $scope.LunchCheck = function () {
-    var totalItems = $scope.lunch.split(',');
-    $scope.items = totalItems.length;
-    if ($scope.items > 3) {
-      $scope.message = "Too Much!";
-    }
-    else { $scope.message = "Enjoy";}
+   if ($scope.lunch =="") {
+    $scope.message = "Please Enter Data First";
+   }
+   else {
+      var totalItems = $scope.lunch.split(',');
+      $scope.items = totalItems.length;
+      if ($scope.items > 3) {
+        $scope.message = "Too Much!";
+      }
+      else { $scope.message = "Enjoy";}
+   }
   };
   
 };
