@@ -15,10 +15,7 @@ angular.module('LunchCheck', [])
       $scope.message = "Too Much!"
     else $scope.message = "Enjoy";
   };
-
-
   
-
 });
 
 
