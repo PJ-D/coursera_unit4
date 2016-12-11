@@ -12,9 +12,9 @@ angular.module('LunchCheck', [])
     var totalItems = lunch.split(',');
     $scope.items = totalItems.length;
     if (totalItems > 3) {
-      $scope.message = "Too Much!"
-    };
-    else { $scope.message = "Enjoy"};
+      $scope.message = "Too Much!";
+    }
+    else { $scope.message = "Enjoy";}
   };
   
 });
