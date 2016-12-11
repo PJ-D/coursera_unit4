@@ -20,7 +20,7 @@ LunchCheck.$inject=['$scope'];
     else { $scope.message = "Enjoy";}
   };
   
-});
+};
 
 
 })();
