@@ -14,7 +14,7 @@ LunchCheckController.$inject=['$scope'];
   $scope.LunchCheck = function () {
     var totalItems = $scope.lunch.split(',');
     $scope.items = totalItems.length;
-    if (totalItems > 3) {
+    if ($scope.items > 3) {
       $scope.message = "Too Much!";
     }
     else { $scope.message = "Enjoy";}
