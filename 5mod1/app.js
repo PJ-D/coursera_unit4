@@ -2,10 +2,11 @@
 'use strict';
 
 angular.module('LunchCheck', [])
+.controller('LunchCheckController', LunchCheckController);
  
 LunchCheck.$inject=['$scope'];
-  
-.controller('LunchCheckController', function ($scope) {
+ 
+ function LunchCheckController ($scope) {
   $scope.lunch = "";
   $scope.message = "pending";
   $scope.items = 0;
