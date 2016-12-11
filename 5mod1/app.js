@@ -2,20 +2,24 @@
 'use strict';
 
 angular.module('LunchCheck', [])
-.controller('LunchCheckController', LunchCheckController);
-
+  
+.controller('LunchCheckController', function ($scope) {
   $scope.lunch = "";
-  $scope.message = "";
+  $scope.message = "pending";
+  $scope.items = 0;
 
-  LunchCheckController.$inject = ['$scope'];
-function LunchCheckController($scope, $filter) {
+  $scope.LunchCheck = function () {
+    var totalItems = lunch.split(',');
+    $scope.items = totalItems.lenght;
+    if totalItems > 3;
+      $scope.message = "Too Much!"
+    else $scope.message = "Enjoy";
+  };
+
 
   
 
-  };
+});
 
-
-  };
-}
 
 })();
