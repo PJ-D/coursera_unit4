@@ -39,7 +39,7 @@
 
     $(document).ready(function() {
 
-      $(function() { $('#divContainer').draggable();});
+      $(function() { $('#divContainer').draggable().on("taphold", quickCheck);});
       $(function() { $("#divResize").draggable().resizable()});
 
       // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
