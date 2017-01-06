@@ -1,1 +1,29 @@
-stuff here
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#divContainer, #divResize { 
+  border:dashed 1px #CCC; 
+  width:120px; 
+  height:120px; 
+  padding:5px; 
+  margin:5px; 
+  font:13px Arial; 
+  float:left 
+  
+} 
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  padding: 5px 32px;
+  height:120px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
