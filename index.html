@@ -24,10 +24,10 @@
   <script>
     var BeenAway = 0
    document.addEventListener("visibilitychange", function() { BeenAway +=1;
-   console.log( document.visibilityState ); console.log(BeenAway)};
+   console.log( document.visibilityState ); console.log(BeenAway);
     if (BeenAway > 0) {
      document.getElementById("babysitter").innerHTML = "User has left this page!";}
-    );
+    )};
   </script>
   <a> Babysitter says: </a> <a id="babysitter">User has not left this page.</a>
 
