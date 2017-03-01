@@ -20,5 +20,14 @@
     <A HREF="mod4/mod4index.html">Mod 4 assignment</A>
   </div>
   <A HREF="sandbox/index.html">sandbox</A>
+  
+  <script>
+    var BeenAway = 0
+   document.addEventListener("visibilitychange", function() { BeenAway +=1;
+   console.log( document.visibilityState );
+});
+  </script>
+  <p title=BeenAway>
+    Babysitter says: _____. </p>
   </body>
  
